@@ -1,0 +1,40 @@
+\documentclass{article}
+\usepackage{arydshln}
+\usepackage[margin=1in]{geometry}
+
+\begin{document}
+\pagenumbering{gobble}
+
+% latex table generated in R 3.4.4 by xtable 1.8-2 package
+% Tue Jul 10 13:28:06 2018
+\begin{table}[ht]
+
+\centering
+\caption{Population variance in the song stability dataset. Different sources of variance and non-independence in  the  data  were  added  to  the  model  as  random  effects  terms  alone  and  in  combination  with  the  others. MType encodes the variance due to the metric of reproductive success used to generate each measurement. Study indicates variance accounted for by studies that reported multiple measurements.  Phylo accounts for the effects of phylogeny, while Species encompasses all remaining species-related effects.  Percent variance was calculated by dividing the mean estimated variance by the total variance in the data.  DIC stands for deviance information criterion.}
+\label{fig:Main}
+\begin{tabular}{ccc}
+  \hline
+Random & \textit{I\textsuperscript{2}} & DIC \\ 
+  \hline
+Species & 53.52\% & 17.03 \\ \hdashline
+  MType & 39.35\% & 33.82 \\ \hdashline
+  Study & 62.89\% & -7.63 \\ \hdashline
+  Species & 11.78\% & 12.05 \\ 
+  Phylo & 20.28\% & `` " \\ \hdashline
+  MType & 21.24\% & -27 \\ 
+  Study & 43.5\% & `` " \\ \hdashline
+  MType & 33.17\% & -9.74 \\ 
+  Species & 6.19\% & `` " \\ 
+  Phylo & 12.16\% & `` " \\ \hdashline
+  Study & 42\% & -24.5 \\ 
+  Species & 4.78\% & `` " \\ 
+  Phylo & 8.39\% & `` " \\ \hdashline
+  MType & 22.7\% & -44.37 \\ 
+  Species & 4.05\% & `` " \\ 
+  Phylo & 7.61\% & `` " \\ 
+  Study & 19.32\% & `` " \\ 
+   \hline
+\end{tabular}
+\end{table}
+
+\end{document}

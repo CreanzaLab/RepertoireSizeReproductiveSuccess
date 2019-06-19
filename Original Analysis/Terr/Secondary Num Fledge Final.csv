@@ -1,0 +1,17 @@
+species name,citation,o/c,repsize,nbirds,cor,significant,migrate
+Acrocephalus arundinaceus,[1],2,22.5,107,0.36,0,2
+Acrocephalus arundinaceus,[2],2,22.5,37,0.27,0,2
+Acrocephalus arundinaceus,[3],2,22.5,47,-0.21,0,2
+Acrocephalus arundinaceus,[5],2,22.5,77,0.25,1,2
+Acrocephalus palustris,[7],1,241,23,0.474,1,2
+Acrocephalus palustris,[8],1,241,31,0.62,1,2
+Cardinalis cardinalis,[16],1,14,21,-0.36,0,0
+Melospiza melodia,[26],1,38,16,0.7088,1,1
+Melospiza melodia,[22],1,38,54,0.57,1,1
+Melospiza melodia,[29],1,38,64,0.57,1,1
+Parus caeruleus,[31],1,6.5,19,0.035,0,0
+Parus major,[33],1,7.9,32,-0.12,0,0
+Parus major,[34],1,7.9,81,0.28,1,0
+Phylloscopus trochilus,[38],2,35.1,25,0.665,1,2
+Sturnella neglecta,[43],2,86,14,0.55,1,2
+Sturnus vulgaris,[46],2,41.95,10,0.761,1,2
