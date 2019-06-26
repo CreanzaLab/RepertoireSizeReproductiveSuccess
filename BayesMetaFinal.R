@@ -36,7 +36,7 @@ tag <- ""
 set.seed(49)
 MultiTree <- read.nexus("NewTree.nex")[sample(1000,100)]
 TreeAinv <- GetRelatednessMatrix(file.path(dir, "NewTree.nex"))
-RawData <- read.csv(file.path(dir, "new data lineup.csv"), header = TRUE)
+RawData <- read.csv(file.path(dir, "AnalysisData.csv"), header = TRUE)
 RawData[,"animal"] <- RawData$Species
 flipsign <- which(RawData$MClass == "Time")
 RawData$Raw.Cor[flipsign] <- RawData$Raw.Cor[flipsign]*-1
